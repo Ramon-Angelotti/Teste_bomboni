@@ -19,30 +19,30 @@
 <body>
 
     <header class="menu_cardapio">
-        <a href="index.html">Inicio</a>
-        <a href="#brigadeiros">Brigadeiros Incríveis</a>
-        <a href="#macarrons">Macarrons</a>
-        <a href="#bombom">Bombom de Morango</a>
-        <a href="#fatias">Fatias Supremas</a>
-        <a href="#tortas">Tortas Geladas</a>
-        <a href="#coxinha">Coxinha de Morango</a>
-        <a href="#choux">Choux Cream ao Craquelin</a>
-        <a href="#entremets">Entremets</a>
-        <a href="#brownie">Tentação Brownie</a>
-        <a href="#petit">Petit Gateau com sorvete</a>
-        <a href="#bolo">Mini bolo de cenoura com cobertura belga</a>
-        <a href="#tacas">Taças</a>
-        <a href="#croissant">Croissant</a>
-        <a href="#milkshakes">Milk shakes</a>
-        <a href="#bebidasAquece">Bebidas para aquecer a alma</a>
-        <a href="#bebidasEnlouquece">Bebidas para enlouquecer</a>
-        <a href="#coqueteis">Coquetéis Autorais</a>
-        <a href="#salgados">Salgados</a>
-
+        <button class="filter-btn" data-category="todos">Todos</button>
+        <button class="filter-btn" data-category="brigadeiros">Brigadeiros</button>
+        <button class="filter-btn" data-category="macarrons">Macarrons</button>
+        <button class="filter-btn" data-category="bombom">Bombom de Morango</button>
+        <button class="filter-btn" data-category="fatias">Fatias Supremas</button>
+        <button class="filter-btn" data-category="tortas">Tortas Geladas</button>
+        <button class="filter-btn" data-category="coxinha">Coxinha de Morango</button>
+        <button class="filter-btn" data-category="choux">Choux Cream ao Craquelin</button>
+        <button class="filter-btn" data-category="entremets">Entremets</button>
+        <button class="filter-btn" data-category="brownie">Tentação Brownie</button>
+        <button class="filter-btn" data-category="petit">Petit Gateau</button>
+        <button class="filter-btn" data-category="bolo">Mini Bolo de Cenoura</button>
+        <button class="filter-btn" data-category="tacas">Taças</button>
+        <button class="filter-btn" data-category="croissant">Croissant</button>
+        <button class="filter-btn" data-category="milkshakes">Milkshakes</button>
+        <button class="filter-btn" data-category="bebidasAquece">Bebidas para Aquecer</button>
+        <button class="filter-btn" data-category="bebidasEnlouquece">Bebidas para Enlouquecer</button>
+        <button class="filter-btn" data-category="coqueteis">Coquetéis Autorais</button>
+        <button class="filter-btn" data-category="salgados">Salgados</button>
+        <a href="index.html"><button>Voltar ao Site</button></a>
     </header>
 
 
-    <section id="brigadeiros">
+    <section id="brigadeiros" class="item" data-category="brigadeiros">
         <h2>Brigadeiros Incríveis</h2>
         
         <h6>Nossos brigadeiros gourmet dispensam apresentações! Macios, saborosos e presentes em todos os eventos.
@@ -67,7 +67,7 @@
 
 
 
-    <section id="macarrons">
+    <section id="macarrons" class="item" data-category="macarrons">
         <h2>Macarrons</h2>
         <h6>
             Os biscoitinhos franceses que conquistam o coração de todos (principalmente da criançada). É uma mistura de
@@ -84,7 +84,7 @@
         </ul>
     </section>
 
-    <section id="bombom">
+    <section id="bombom" class="item" data-category="bombom">
         <h2>Bombom de Morango</h2>
         <h6>Apresentamos o Bombom Trufado de Morango. Composto por dois morangos frescos e suculentos, envoltos em um
             creme de moça cbem macio e suave. Para completar esta experiência gastronômica, uma fina e crocante camada
@@ -93,7 +93,7 @@
             !!</h6>
     </section>
 
-    <section id="fatias">
+    <section id="fatias" class="item" data-category="fatias">
         <h2>Fatias Supremas</h2>
         <h6>Quem é triste comendo bolo, gente? Ainda mais se for um bolo da Bomboni, né? Bem molhadinhos, recheados e
             deliciosos. Esses vocês já conhecem de “outros carnavais”. Mas, caso seja sua primeira vez, aconselho pedir
@@ -101,7 +101,7 @@
             (Consultar opções disponíveis no dia)</h6>
     </section>
 
-    <section id="tortas">
+    <section id="tortas" class="item" data-category="tortas">
         <h2>Tortas Geladas</h2>
         <h6>As nossas tortas geladas vieram para quem gosta de doces mais leves, e com textura aerada ou lembrando um
             delicioso sorvete. São deliciosas, levinhas, suaves no sabor, e vão te deixar querendo mais!
@@ -118,7 +118,7 @@
 
     </section>
 
-    <section id="coxinha">
+    <section id="coxinha" class="item" data-category="coxinha">
         <h2>Coxinha de Morango</h2>
         <h6>Coxinhas recheadas com morangos frescos maravilhosos e vários sabores irresistíveis</h6>
         <ul>
@@ -131,7 +131,7 @@
 
     </section>
 
-    <section id="choux">
+    <section id="choux" class="item" data-category="choux">
         <h2>Choux Cream ao Craquelin</h2>
         <h6>A Choux Cream é um doce que faz sucesso nas melhores confeitarias do mundo! É um doce de origem francesa que
             faz muito sucesso em países como Coréia e Japão. O prato é a junção de uma massa bem levinha e bem macia com
@@ -147,7 +147,7 @@
     </section>
 
 
-    <section id="entremets">
+    <section id="entremets" class="item" data-category="entremets">
         <h2>Entremets</h2>
         <h6>A arte da confeitaria se eleva a novos patamares com as nossas receitas de Entremets. Trata-se de uma
             criação, com várias camadas muito bem elaboradas, e uma cobertura brilhante ou fosca. Cada camada deste
@@ -167,7 +167,7 @@
     </section>
 
 
-    <section id="brownie">
+    <section id="brownie" class="item" data-category="brownie">
         <h2>Tentação Brownie</h2>
         <h6>Nossas sobremesas viciantes são sobremesas empratadas, e produzidas no momento em que são pedidas. Assim,
             você pode optar por se deliciar com elas e aproveitar mais ainda o tempo aqui.</h6>
@@ -178,7 +178,7 @@
 
     </section>
 
-    <section id="petit">
+    <section id="petit" class="item" data-category="petit">
         <h2>Petit Gateau com Sorvete</h2>
         <h6>Nossas sobremesas viciantes são sobremesas empratadas, e produzidas no momento em que são pedidas. Assim,
             você pode optar por se deliciar com elas e aproveitar mais ainda o tempo aqui.</h6>
@@ -192,7 +192,7 @@
 
     </section>
 
-    <section id="bolo">
+    <section id="bolo" class="item" data-category="bolo">
         <h2>Mini Bolo de Cenoura com Cobertura Belga</h2>
         <h6>Nossas sobremesas viciantes são sobremesas empratadas, e produzidas no momento em que são pedidas. Assim,
             você pode optar por se deliciar com elas e aproveitar mais ainda o tempo aqui.</h6>
@@ -203,7 +203,7 @@
         </ul>
     </section>
 
-    <section id="tacas">
+    <section id="tacas" class="item" data-category="tacas">
         <h2>Taças</h2>
         <h6>Descrição das taças...</h6>
         <ul>
@@ -225,7 +225,7 @@
         </ul>
     </section>
 
-    <section id="croissant">
+    <section id="croissant" class="item" data-category="croissant">
         <h2>Croissant</h2>
         <h6>Com sabor único, fermentação natural e uma massa folhada de dar água na boca. Trouxemos essa maravilha de
             Vienoiserie recheada com nossos cremes maravilhosos.
@@ -237,7 +237,7 @@
     </section>
 
 
-    <section id="milkshakes">
+    <section id="milkshakes" class="item" data-category="milkshakes">
         <h2>Milk Shakes</h2>
         <h6>Nosso milkshake é super cremoso e refrescante, feito especialmente com as melhores combinações pra vocês se
             deliciarem e refrescarem
@@ -251,7 +251,7 @@
         </ul>
     </section>
 
-    <section id="bebidasAquece">
+    <section id="bebidasAquece" class="item" data-category="bebidasAquece">
         <h2>Bebidas para Aquecer a Alma</h2>
         <h6>Após treinamentos e muita pesquisa, trazemos para vocês também os melhores cafés especiais. Várias opções
             para quem ama essa bebida beeem mineirinha. Na dúvida, pede nosso “pãozim” de queijo pra acompanhar. Tem
@@ -299,7 +299,7 @@
 
     </section>
 
-    <section id="bebidasEnlouquece">
+    <section id="bebidasEnlouquece" class="item" data-category="bebidasEnlouquece">
         <h2>Bebidas para Enlouquecer</h2>
         <h4>(Sem álcool)</h4>
 
@@ -354,7 +354,7 @@
 
     </section>
 
-    <section id="coqueteis">
+    <section id="coqueteis" class="item" data-category="coqueteis">
         <h2>Coquetéis Autorais</h2>
         <h6>Descrição dos coquetéis autorais...</h6>
         <ul>
@@ -400,7 +400,7 @@
 
     </section>
 
-    <section id="salgados">
+    <section id="salgados" class="item" data-category="salgados">
         <h2>Salgados</h2>
         <h6>Descrição dos salgados...</h6>
         <ul>
