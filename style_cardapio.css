@@ -30,6 +30,113 @@ section {
     margin: 0;
 }
 
+#coxinha {
+    background-image: url(img/IMG_0484.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+        color: aliceblue;
+    margin: 0;
+}
+
+#entremets {
+    background-image: url(img/IMG_0746.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    color: aliceblue;
+    margin: 0;
+}
+
+#brownie {
+    background-image: url(img/IMG_0552.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    color: aliceblue;
+    margin: 0;
+}
+
+#petit {
+    background-image: url(img/IMG_0631.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    color: aliceblue;
+    margin: 0;
+}
+
+
+#bolo {
+    background-image: url(img/IMG_0478.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    color: aliceblue;
+    margin: 0;
+}
+
+
+#tacas {
+    background-image: url(img/IMG_0659.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    color: aliceblue;
+    margin: 0;  
+}
+
+#bebidasAquece{
+    background-image: url(img/IMG_0874.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    color: aliceblue;
+    margin: 0;
+}
+
+#bebidasEnlouquece {
+    background-image: url(img/IMG_0710.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    color: aliceblue;
+    margin: 0;
+   
+}
+
+
+#coqueteis {
+
+}
+
+#salgados {
+    background-image: url(img/IMG_1013.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    color: aliceblue;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .menu_cardapio {
@@ -85,6 +192,7 @@ section {
 
 button {
     background-color: transparent;
+    max-height: 8vh ;
 }
 
 
@@ -124,6 +232,7 @@ h6 {
         display: inline-block; /* deixar assim ou não?*/
         gap: 50;
         background-position: center;
+        
     }
 
 

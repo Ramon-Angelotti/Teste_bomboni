@@ -7,22 +7,35 @@
 
 
 
-header,
-a {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin: 20px;
+button {
     text-decoration: none;
-    color: hotpink;
+    /* Remove sublinhado dos links */
+    color: rgb(253, 10, 156);
+    /* Cor do texto */
+    font-size: 30px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+    /* Transição suave */
+    border-radius: 20px;
+    background-color: transparent;
+    max-height: 20vh;
+}
+
+button:hover {
+    background-color: #ffc1ea;
+    /* Cor de fundo ao passar o mouse */
+    color: white;
+    /* Cor do texto ao passar o mouse */
+    font-weight: bold;
 
 }
 
-a:hover{
-    color:white;
-    font-size: 60px;
-    transition: 1s ease-in-out;
-}
+
+
+
+
+
+
 
 
 article {
@@ -30,7 +43,7 @@ article {
     align-items: center;
     top: 0;
     font-size: 30px;
-  width: 40vw;
+    width: 40vw;
     margin-left: 30px;
     color: aliceblue;
     font-family: "Satisfy", cursive;
@@ -54,17 +67,19 @@ a {
     font-size: 50px;
     font-family: "Satisfy", cursive;
     margin-left: 100px;
-    
+
 }
 
 
 /* Adiciona responsividade */
 @media (max-width: 768px) {
     a {
-        font-size: 20px; /* Menor fonte em telas menores */
+        font-size: 20px;
+        /* Menor fonte em telas menores */
     }
 
     header {
-        flex-direction: column; /* Alinha verticalmente em telas menores */
+        flex-direction: column;
+        /* Alinha verticalmente em telas menores */
     }
 }
