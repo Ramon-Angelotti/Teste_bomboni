@@ -15,11 +15,11 @@
     font-size: 30px;
     align-items: top;
     gap: 60px;
-    margin: 0px 300px 30px;
+    /*margin: 0px 300px 30px;*/
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     align-items: center;
- 
+ margin: 40px;
 }
 
 
@@ -209,4 +209,7 @@ textarea {
     div {
         flex-direction: column;
     }
+
+
+ 
 }

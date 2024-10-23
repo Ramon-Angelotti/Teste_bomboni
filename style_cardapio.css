@@ -9,6 +9,7 @@ h2 {
     font-size: 30px;
     margin-left: 40px;
 
+
 }
 
 li {
@@ -23,6 +24,8 @@ section {
 
 /*testando aqui as fotos*/
 
+
+
 #brigadeiros {
     background-image: url(img/brigadeiro-certo.jpeg);
     background-position: center;
@@ -31,6 +34,9 @@ section {
     margin: 0;
     height: 80vh;
     margin-bottom: 10px;
+    
+
+
 }
 
 #coxinha {
@@ -41,6 +47,7 @@ section {
     margin: 0;
     height: 80vh;
     margin-bottom: 10px;
+    
 
 }
 
@@ -135,6 +142,7 @@ section {
     margin: 0;
     height: 80vh;
     margin-bottom: 10px;
+    
 }
 
 #bombom {
@@ -206,8 +214,10 @@ section {
     background-size: cover;
     max-width: 100vw;
     margin: 0;
-   
+
 }
+
+
 
 
 
@@ -337,7 +347,7 @@ h6 {
         align-items: center;
         display: inline-block;
         /* deixar assim ou não?*/
-        gap: 50;
+        gap: 20px;
         background-position: center;
 
     }
@@ -355,9 +365,9 @@ h6 {
     /*testando aqui */
 
 
-    #brigadeiros {
+    /*#brigadeiros {
         margin-left: 10px;
-    }
+    }*/
 
 
     h2,
