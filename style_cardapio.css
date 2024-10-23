@@ -30,6 +30,7 @@ section {
     max-width: 100vw;
     margin: 0;
     height: 80vh;
+    margin-bottom: 10px;
 }
 
 #coxinha {
@@ -39,6 +40,7 @@ section {
     max-width: 100vw;
     margin: 0;
     height: 80vh;
+    margin-bottom: 10px;
 
 }
 
@@ -49,6 +51,7 @@ section {
     max-width: 100vw;
     margin: 0;
     height: 80vh;
+    margin-bottom: 10px;
 }
 
 #brownie {
@@ -58,6 +61,7 @@ section {
     max-width: 100vw;
     margin: 0;
     height: 80vh;
+    margin-bottom: 10px;
 }
 
 #petit {
@@ -67,6 +71,7 @@ section {
     max-width: 100vw;
     margin: 0;
     height: 80vh;
+    margin-bottom: 10px;
 }
 
 
@@ -77,6 +82,7 @@ section {
     max-width: 100vw;
     margin: 0;
     height: 80vh;
+    margin-bottom: 10px;
 }
 
 
@@ -87,6 +93,7 @@ section {
     max-width: 100vw;
     margin: 0;
     height: 80vh;
+    margin-bottom: 10px;
 }
 
 #bebidasAquece {
@@ -117,7 +124,97 @@ section {
     max-width: 100vw;
     margin: 0;
     height: 80vh;
+    margin-bottom: 10px;
 }
+
+#macarrons {
+    background-image: url(img/macarrons.jpeg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    margin: 0;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+#bombom {
+    background-image: url(img/bombomMorango2.jpeg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    margin: 0;
+    height: 80vh;
+    margin-bottom: 10px;
+
+}
+
+#fatias {
+    background-image: url(img/fatiasSupre2.jpeg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    margin: 0;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+#tortas {
+    background-image: url(img/tortasGeladas.jpeg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    margin: 0;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+#choux {
+    background-image: url(img/choux.jpeg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    margin: 0;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+#croissant {
+    background-image: url(img/croiassantDoce.jpeg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    margin: 0;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+
+#milkshakes {
+    background-image: url(img/exemplomilk-shake);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    margin: 0;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+
+#coqueteis {
+    background-image: url(img/coqueteisautexemplo.jpeg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100vw;
+    margin: 0;
+   
+}
+
+
+
+
+
+
+
 
 .botaoPreco {
 
@@ -143,22 +240,12 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .menu_cardapio {
     display: inline-block flex;
     gap: 20px;
     transition: none;
     text-decoration: none;
+    margin-bottom: 10px;
 
 }
 
